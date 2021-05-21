@@ -1,0 +1,11 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a00a1d35_002D3494_002D423a_002Da717_002D61a9a86d800b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="PrintFizzBuzz #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::6BDB9379-DFE0-4F1B-A745-7E1CB9203D22::.NETFramework,Version=v4.8::FizzBuzz.FizzBuzzShould.PrintFizzBuzz&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d0c98bf4_002Dfd18_002D4e35_002D9733_002D8caf92bd6fc2/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="PrintFizzBuzz" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::6BDB9379-DFE0-4F1B-A745-7E1CB9203D22::.NETFramework,Version=v4.8::FizzBuzz.FizzBuzzShould.PrintFizzBuzz&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
