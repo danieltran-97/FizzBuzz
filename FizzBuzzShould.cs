@@ -8,30 +8,30 @@ namespace FizzBuzz
         [Theory]
         [InlineData(3)]
         [InlineData(6)]
-        public void PrintFizz(int number)
+        public void Fizz(int number)
         {
             var fizzBuzz = new FizzBuzz();
-            var message = fizzBuzz.PrintFizzBuzz(number);
+            var message = fizzBuzz.FizzBuzzMessage(number);
             Assert.Equal("Fizz", message);
         }
         
         [Theory]
         [InlineData(5)]
         [InlineData(10)]
-        public void PrintBuzz(int number)
+        public void Buzz(int number)
         {
             var fizzBuzz = new FizzBuzz();
-            var message = fizzBuzz.PrintFizzBuzz(number);
+            var message = fizzBuzz.FizzBuzzMessage(number);
             Assert.Equal("Buzz", message);
         }
         
         [Theory]
         [InlineData(15)]
         [InlineData(30)]
-        public void PrintFizzBuzz(int number)
+        public void FizzBuzzMessage(int number)
         {
             var fizzBuzz = new FizzBuzz();
-            var message = fizzBuzz.PrintFizzBuzz(number);
+            var message = fizzBuzz.FizzBuzzMessage(number);
             Assert.Equal("FizzBuzz", message);
         }
     }

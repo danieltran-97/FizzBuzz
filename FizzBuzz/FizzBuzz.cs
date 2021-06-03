@@ -4,29 +4,42 @@ namespace FizzBuzz
 {
     public class FizzBuzz
     {
-        public string PrintFizzBuzz(int numberInput)
+        private string _message = string.Empty;
+
+        public string FizzBuzzMessage(int numberInput)
         {
-            string message;
 
-            if (numberInput % 3 == 0 && numberInput % 5 != 0)
+            if (_fizz(numberInput) && _buzz(numberInput))
             {
-                message = "Fizz";
+                _message = "FizzBuzz";
             }
-            else if (numberInput % 5 == 0 && numberInput % 3 != 0)
+            else if (_fizz(numberInput))
             {
-                message = "Buzz";
+                _message = "Fizz";
             }
-
-            else if (numberInput % 3 == 0 && numberInput % 5 == 0)
+            else if (_buzz(numberInput))
             {
-                message = "FizzBuzz";
+                _message = "Buzz";
             }
             else
             {
-                message = numberInput.ToString();
+                _message = numberInput.ToString();
             }
             
-            return message;
+            return _message;
         }
+
+        private static bool _fizz(int number)
+        {
+            return (number % 3 == 0);
+        }
+
+        private static bool _buzz(int number)
+        {
+            return (number % 5 == 0);
+        }
+        
+        
+        
     }
 }

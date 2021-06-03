@@ -10,7 +10,7 @@ namespace FizzBuzz
             
             for (var i = 1; i < 101; i++)
             {
-                Console.WriteLine(fizzBuzz.PrintFizzBuzz(i));
+                Console.WriteLine(fizzBuzz.FizzBuzzMessage(i));
             }
         }
     }
