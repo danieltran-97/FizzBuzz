@@ -28,7 +28,7 @@ namespace FizzBuzz
         [Theory]
         [InlineData(15)]
         [InlineData(30)]
-        public void FizzBuzzMessage(int number)
+        public void FizzBuzz(int number)
         {
             var fizzBuzz = new FizzBuzz();
             var message = fizzBuzz.FizzBuzzMessage(number);
