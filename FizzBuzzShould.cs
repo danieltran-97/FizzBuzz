@@ -1,7 +1,6 @@
-﻿using System;
-using Xunit;
+﻿using Xunit;
 
-namespace FizzBuzz
+namespace FizzBuzzTest
 {
     public class FizzBuzzShould
     {
@@ -10,7 +9,7 @@ namespace FizzBuzz
         [InlineData(6)]
         public void Fizz(int number)
         {
-            var fizzBuzz = new FizzBuzz();
+            var fizzBuzz = new FizzBuzz.FizzBuzz();
             var message = fizzBuzz.FizzBuzzMessage(number);
             Assert.Equal("Fizz", message);
         }
@@ -20,7 +19,7 @@ namespace FizzBuzz
         [InlineData(10)]
         public void Buzz(int number)
         {
-            var fizzBuzz = new FizzBuzz();
+            var fizzBuzz = new FizzBuzz.FizzBuzz();
             var message = fizzBuzz.FizzBuzzMessage(number);
             Assert.Equal("Buzz", message);
         }
@@ -30,7 +29,7 @@ namespace FizzBuzz
         [InlineData(30)]
         public void FizzBuzz(int number)
         {
-            var fizzBuzz = new FizzBuzz();
+            var fizzBuzz = new FizzBuzz.FizzBuzz();
             var message = fizzBuzz.FizzBuzzMessage(number);
             Assert.Equal("FizzBuzz", message);
         }
